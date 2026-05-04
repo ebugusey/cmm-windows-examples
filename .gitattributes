@@ -1,0 +1,7 @@
+* text=auto
+
+dot_bash* text eol=lf
+*.sh text eol=lf
+*.sh.tmpl text eol=lf
+*.bash.tmpl text eol=lf
+dot_local/bin/* text eol=lf
