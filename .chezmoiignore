@@ -1,0 +1,10 @@
+**/*.src.ini
+**/*.{{ .chezmoi.os }}.ini
+
+{{ if eq .chezmoi.os "windows" }}
+.config/*
+{{ end }}
+
+{{ if ne .chezmoi.os "windows" }}
+AppData/
+{{ end }}

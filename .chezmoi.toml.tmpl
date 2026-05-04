@@ -1,0 +1,8 @@
+# chezmoi:template:left-delimiter="# {{" right-delimiter=}}
+
+# {{- if eq .chezmoi.os "windows" -}}
+
+[interpreters.sh]
+command = "sh"
+
+# {{- end -}}
