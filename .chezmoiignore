@@ -1,5 +1,4 @@
 **/*.src.ini
-**/*.{{ .chezmoi.os }}.ini
 
 {{ if eq .chezmoi.os "windows" }}
 .config/*
